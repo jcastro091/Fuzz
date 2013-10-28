@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabHost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@android:id/tabs" >
+
+            <ScrollView
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="60px" >
+
+                    <TextView
+                        android:id="@+id/t12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100px"
+                        android:text="This is a Test" />
+
+                    <ImageButton
+                        android:id="@+id/t5465465"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100px"
+                        android:background="@drawable/fuzzlogo3" />
+
+                    <TextView
+                        android:id="@+id/t982"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Vestibulum nulla nulla, mattis ac convallis vel, rutrum quis elit. Donec quis ante elit. Nullam sodales nisi eu augue aliquet ultrices. Cras adipiscing mattis metus et pharetra. Cras sed sapien eu neque vulputate accumsan. Duis viverra suscipit fringilla. Proin augue urna, semper nec varius sit amet, viverra in nibh. Suspendisse gravida, dolor eu sollicitudin viverra, augue metus interdum tortor, id pellentesque neque justo ut ligula. Aliquam erat volutpat. Praesent blandit risus sed ligula cursus rhoncus. Phasellus adipiscing nibh et est pellentesque mattis. Proin consequat cursus velit, a sodales lacus ultricies ac. Aenean dapibus, justo vitae semper commodo, turpis odio blandit enim, eget ultricies lectus lacus non orci. Praesent nunc turpis, rutrum vel auctor ac, congue ut leo. Duis metus elit, pharetra non aliquam vel, auctor semper odio." />
+
+                    <TextView
+                        android:id="@+id/t5500"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Cum sociis natoque penatibus\n\nNulla ornare iaculisbrtortor at rhoncus. Nulla vitae congue leo.\n" />
+
+                    <ImageButton
+                        android:id="@+id/t100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/van" />
+
+                    <TextView
+                        android:id="@+id/t124"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Once upon a midnight dreary, while I pondered weak and weary,\nOver many a quaint and curious volume of forgotten lore,\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n`&apos;Tis some visitor,&apos; I muttered, `tapping at my chamber door -\nOnly this, and nothing more.&apos;" />
+
+                    <TextView
+                        android:id="@+id/t50063"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Nothing" />
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="" />
+                                        <ImageButton
+                        android:id="@+id/t12123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/android" />
+
+                    <ImageButton
+                        android:id="@+id/t312313"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/twitter" />
+
+                    <ImageButton
+                        android:id="@+id/t568567347"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/grid" />
+
+                    <ImageButton
+                        android:id="@+id/t352352352351241534645856856846856753467456745684679578096780678967893547"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/smiley" />
+                    
+                    
+                    
+                    
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="60px" >
+
+                    <TextView
+                        android:id="@+id/t123"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100px"
+                        android:text="This is a Test" />
+
+                    <TextView
+                        android:id="@+id/t983"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vestibulum nulla nulla, mattis ac convallis vel, rutrum quis elit. Donec quis ante elit. Nullam sodales nisi eu augue aliquet ultrices. Cras adipiscing mattis metus et pharetra. Cras sed sapien eu neque vulputate accumsan. Duis viverra suscipit fringilla. Proin augue urna, semper nec varius sit amet, viverra in nibh. Suspendisse gravida, dolor eu sollicitudin viverra, augue metus interdum tortor, id pellentesque neque justo ut ligula. Aliquam erat volutpat. Praesent blandit risus sed ligula cursus rhoncus. Phasellus adipiscing nibh et est pellentesque mattis. Proin consequat cursus velit, a sodales lacus ultricies ac. Aenean dapibus, justo vitae semper commodo, turpis odio blandit enim, eget ultricies lectus lacus non orci. Praesent nunc turpis, rutrum vel auctor ac, congue ut leo. Duis metus elit, pharetra non aliquam vel, auctor semper odio." />
+
+                    <TextView
+                        android:id="@+id/t5501"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/t983"
+                        android:text="Cum sociis natoque penatibus\n\nNulla ornare iaculisbrtortor at rhoncus. Nulla vitae congue leo.\n" />
+
+                    <TextView
+                        android:id="@+id/t123"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Once upon a midnight dreary, while I pondered weak and weary,\nOver many a quaint and curious volume of forgotten lore,\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n`&apos;Tis some visitor,&apos; I muttered, `tapping at my chamber door -\nOnly this, and nothing more.&apos;" />
+
+                    <TextView
+                        android:id="@+id/t50062"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Nothing" />
+
+                    <TextView
+                        android:id="@+id/t0"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="" />
+                </LinearLayout>
+            </ScrollView>
+
+            <ScrollView
+                android:id="@+id/tab3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingTop="60px" >
+
+                    <ImageButton
+                        android:id="@+id/t5465466"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/fuzzlogo3" />
+
+                     <ImageButton
+                        android:id="@+id/t101"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/van" />
+
+                     <ImageButton
+                        android:id="@+id/t12123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/android" />
+
+                     <ImageButton
+                        android:id="@+id/t312312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/twitter" />
+
+                     <ImageButton
+                        android:id="@+id/t568567346"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/grid" />
+
+                     <ImageButton
+                        android:id="@+id/t352352352351241534645856856846856753467456745684679578096780678967893546"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/smiley" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
